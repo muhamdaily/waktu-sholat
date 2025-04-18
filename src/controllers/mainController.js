@@ -1,4 +1,4 @@
-import quotes from '../quotes.json' assert { type: 'json' };
+import quotes from '../quotes.json' with { type: 'json' };
 
 const APIKEY = process.env.APIKEY || 'Q8xA3fZp1Lk7BnW9';
 
